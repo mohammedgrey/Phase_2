@@ -12,21 +12,12 @@ AddFigureAction::AddFigureAction(ApplicationManager *pApp) :Action(pApp)
 }
 
 void AddFigureAction::ReadActionParameters() {
-
 	Output* pOut = pManager->GetOutput();
-
 	pOut->CreateAddMenulBar();
-
-
 }
 
 void AddFigureAction::Execute() {
-
 	ReadActionParameters();
-
-
-
-
 }
 
 
