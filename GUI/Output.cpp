@@ -383,7 +383,7 @@ void Output::DrawLine(Point P1, Point P2, GfxInfo LineGfxInfo, bool selected) co
 	else
 		DrawingClr = LineGfxInfo.DrawClr;
 
-	pWind->SetPen(DrawingClr, 1);
+	pWind->SetPen(DrawingClr, 2);
 
 	drawstyle style;
 	style = FRAME;
