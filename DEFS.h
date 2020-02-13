@@ -80,5 +80,14 @@ struct GfxInfo	//Graphical info of each figure (you may add more members)
 
 };
 
+
+enum TrialEnum //The actions supported (you can add more if needed)
+{
+	T1,
+	T2,
+	T3
+
+};
+
 #endif
  
